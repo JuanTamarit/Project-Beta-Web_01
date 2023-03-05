@@ -1,0 +1,85 @@
+:root {
+  /*COLORES*/
+  --color-rojo: #C8443B;
+  --color-gris: #E6E4E1;
+  --color-negro: #2E2D30;
+  /*COLORES DE FONDO*/
+  --color-bg-rojo: #C8443B;
+  --color-bg-gris: #E6E4E1;
+  --color-bg-negro: #2E2D30;
+  /*VARIANTES DE PESO*/
+  --peso-light: 300;
+  --peso-regular: 400;
+  --peso-medium: 500;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-bg-gris);
+  font-family: "Unbounded", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-rojo);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: var(--peso-medium);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: var(--peso-medium);
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: var(--peso-regular);
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: var(--peso-regular);
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: var(--peso-regular);
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: var(--peso-light);
+}
+
+.h1__serif {
+  font-size: 32px;
+  font-family: "Petrona", serif;
+}
+
+.h2__serif--italic {
+  font-size: 36px;
+  font-family: "Petrona", serif;
+  font-style: italic;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--color-negro);
+  font-size: 16px;
+}
+
+p strong {
+  color: var(--color-rojo);
+  font-weight: var(--peso-medium);
+}
+
+.p__serif {
+  font-size: 20px;
+  font-family: "Petrona", serif;
+}

@@ -1,0 +1,16 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--color-negro);
+    font-size: 16px;
+}
+
+p strong {
+    color: var(--color-rojo);
+    font-weight: var(--peso-medium);
+}
+
+.p__serif {
+    font-size: 20px;
+    font-family: 'Petrona', serif;
+}
