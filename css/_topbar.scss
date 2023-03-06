@@ -1,0 +1,22 @@
+.topbar {
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-gris);
+}
+
+.topbar__logo {
+    width: 63.35px;
+}
+
+.topbar__icono-menu-hamburguesa {
+    width: 47.46px;
+}
+
+.menu-desplegable {
+    display: none;
+}
+.mostrarmenu {
+    // color: red; 
+    display: block;
+}
