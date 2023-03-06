@@ -18,6 +18,7 @@
 }
 
 body {
+  padding: 0 24px 0 24px;
   background-color: var(--color-bg-gris);
   font-family: "Unbounded", sans-serif;
 }
@@ -84,6 +85,16 @@ p strong {
   font-family: "Petrona", serif;
 }
 
+.section__hero__textos {
+  margin-bottom: 40px;
+}
+
+.section__hero__imagen img {
+  width: 92.5vw;
+  -webkit-transform: rotate(3.5deg);
+          transform: rotate(3.5deg);
+}
+
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
@@ -114,7 +125,7 @@ p strong {
 }
 
 .topbar {
-  padding: 24px 24px;
+  padding: 24px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,6 +133,7 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: var(--color-gris);
+  margin-bottom: 48px;
 }
 
 .topbar__logo {
@@ -135,8 +147,9 @@ p strong {
 .menu-desplegable {
   display: none;
   background-color: var(--color-rojo);
-  padding: 0 24px;
+  padding: 70% 0 0 24px;
   position: fixed;
+  z-index: 999;
   top: 96.55px;
   bottom: 0;
   left: 0;

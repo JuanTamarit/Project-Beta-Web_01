@@ -1,8 +1,9 @@
 .topbar {
-    padding: 24px 24px;
+    padding: 24px 0;
     display: flex;
     justify-content: space-between;
     background-color: var(--color-gris);
+    margin-bottom: 48px;
 }
 
 .topbar__logo {
@@ -16,8 +17,9 @@
 .menu-desplegable {
     display: none;
     background-color: var(--color-rojo);
-    padding: 0 24px; 
+    padding: 70% 0 0 24px; 
     position: fixed;
+    z-index: 999;
     top: 96.55px;
     bottom: 0;
     left: 0;
