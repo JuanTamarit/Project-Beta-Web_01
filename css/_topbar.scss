@@ -15,8 +15,16 @@
 
 .menu-desplegable {
     display: none;
+    padding: 0 24px;
+    height: 100%;    
 }
 .mostrarmenu {
-    // color: red; 
+    background-color: var(--color-rojo);
     display: block;
+
+        h1, h5 {
+            color: var(--color-gris);
+        }
 }
+
+

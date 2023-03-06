@@ -134,8 +134,14 @@ p strong {
 
 .menu-desplegable {
   display: none;
+  padding: 0 24px;
+  height: 100%;
 }
 
 .mostrarmenu {
+  background-color: var(--color-rojo);
   display: block;
+}
+.mostrarmenu h1, .mostrarmenu h5 {
+  color: var(--color-gris);
 }
