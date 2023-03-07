@@ -1,0 +1,12 @@
+.componente__producto {
+    margin-bottom: 96px;
+}
+.componente__producto__tituloyprecio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.componente__producto img {
+margin-bottom: 12px;
+}
