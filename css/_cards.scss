@@ -1,0 +1,23 @@
+// CAJA: EXCLUYE EL AUTOR DE LA CARD
+.card--simple {
+    margin-bottom: 80px;
+}
+.card--simple__caja {
+    border-top: 2px solid var(--color-rojo);
+    border-bottom: 2px solid var(--color-rojo);
+    margin-bottom: 12px;
+}
+
+.card__caja__contenido {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.card__titulo {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.card__categoria {
+    text-align: end;
+}

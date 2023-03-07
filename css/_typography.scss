@@ -1,3 +1,4 @@
+// ESTILOS GENERALES DE TIPOGRAFÍA
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -15,7 +16,18 @@ p strong {
     font-family: 'Petrona', serif;
 }
 
+// ESTILOS REFERENTES A TEXTOS DE LA HOME (MARGINS, COLORES ESPECÍFICOS, ETC.)
 .section__hero__textos {
     margin-bottom: 40px;
 }
+
+.section__ideas h2 {
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.section__ideas h5 {
+    color: var(--color-negro);
+    text-align: center;
+ }
 

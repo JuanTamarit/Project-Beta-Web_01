@@ -23,6 +23,10 @@ body {
   font-family: "Unbounded", sans-serif;
 }
 
+.section__hero {
+  margin-bottom: 144px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-rojo);
 }
@@ -87,6 +91,16 @@ p strong {
 
 .section__hero__textos {
   margin-bottom: 40px;
+}
+
+.section__ideas h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section__ideas h5 {
+  color: var(--color-negro);
+  text-align: center;
 }
 
 .section__hero__imagen img {
@@ -161,4 +175,28 @@ p strong {
 
 .mostrarmenu {
   display: block;
+}
+
+.card--simple {
+  margin-bottom: 80px;
+}
+
+.card--simple__caja {
+  border-top: 2px solid var(--color-rojo);
+  border-bottom: 2px solid var(--color-rojo);
+  margin-bottom: 12px;
+}
+
+.card__caja__contenido {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.card__titulo {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card__categoria {
+  text-align: end;
 }
