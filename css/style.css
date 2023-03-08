@@ -18,15 +18,60 @@
 }
 
 body {
-  padding: 0 24px 0 24px;
   background-color: var(--color-bg-gris);
   font-family: "Unbounded", sans-serif;
+}
+
+main {
+  padding: 0 24px 0 24px;
 }
 
 .section__hero, .section__ideas {
   margin-bottom: 144px;
 }
 
+.section__hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__hero__textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1194px) {
+  main {
+    padding: 0 48px 0 48px;
+  }
+  .section__hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 72px 0 72px;
+  }
+  .section__hero__textos {
+    max-width: 45vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 24px;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-rojo);
 }
@@ -123,6 +168,11 @@ p strong {
   width: 100%;
 }
 
+@media screen and (min-width: 1194px) {
+  .section__hero__imagen {
+    width: 40%;
+  }
+}
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
@@ -153,7 +203,7 @@ p strong {
 }
 
 .topbar {
-  padding: 24px 0;
+  padding: 24px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,6 +241,11 @@ p strong {
   display: block;
 }
 
+@media screen and (min-width: 1194px) {
+  .topbar {
+    margin-bottom: 0px;
+  }
+}
 .card--simple {
   margin-bottom: 80px;
 }
@@ -238,6 +293,7 @@ p strong {
 
 footer {
   background-color: var(--color-rojo);
+  padding: 0 24px;
 }
 
 footer h5 {
@@ -249,7 +305,17 @@ footer ul {
   padding: 80px 0 80px 0;
 }
 
+footer ul li {
+  padding: 24px 0px;
+}
+
 footer ul li:not(:nth-of-type(4)) {
   border-bottom: 2px solid var(--color-gris);
-  margin-bottom: 20px;
+}
+
+#creditos {
+  color: var(--color-gris);
+  text-align: end;
+  padding-bottom: 24px;
+  opacity: 50%;
 }

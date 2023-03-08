@@ -1,5 +1,6 @@
 footer {
     background-color: var(--color-rojo);
+    padding: 0 24px;
 }
 
 footer h5 {
@@ -11,7 +12,17 @@ footer ul {
     padding: 80px 0 80px 0;
 }
 
-footer ul li:not (:nth-of-type(4)) {
+footer ul li {
+    padding: 24px 0px;
+}
+
+footer ul li:not(:nth-of-type(4)) {
     border-bottom: 2px solid var(--color-gris);
-    margin-bottom: 20px;    
-  }
+}
+
+#creditos {
+    color: var(--color-gris);
+    text-align: end;
+    padding-bottom: 24px;
+    opacity: 50%;
+}

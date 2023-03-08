@@ -1,5 +1,5 @@
 .topbar {
-    padding: 24px 0;
+    padding: 24px 24px;
     display: flex;
     justify-content: space-between;
     background-color: var(--color-gris);
@@ -33,6 +33,15 @@
 .mostrarmenu {
     display: block;
     
+}
+
+@media screen and (min-width:1194px) {
+
+    .topbar {
+        margin-bottom: 0px;
+    }
+    
+
 }
 
 

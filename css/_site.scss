@@ -3,14 +3,47 @@
 }
 
 body {
-    padding: 0 24px 0 24px;
     background-color: var(--color-bg-gris);
     font-family: 'Unbounded', sans-serif;
+}
+
+main {
+    padding: 0 24px 0 24px;
 }
 
 .section__hero, .section__ideas {
     margin-bottom: 144px;
 }
+
+.section__hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__hero__textos {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1194px) {
+
+    main {
+        padding: 0 48px 0 48px;
+    }
+
+    .section__hero {
+        display: flex;
+        flex-direction: row;
+        padding: 0 72px 0 72px;
+    }
+
+    .section__hero__textos {
+        max-width: 45vw;   
+        justify-content: center;
+        margin-right: 24px;
+    }
+} 
+
 
 
 
