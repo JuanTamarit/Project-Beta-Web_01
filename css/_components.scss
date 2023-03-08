@@ -7,6 +7,19 @@
     justify-content: space-between;
 }
 
+.componente__producto__tituloyprecio h5:first-of-type {
+    color: var(--color-negro);
+}
+
 .componente__producto img {
 margin-bottom: 12px;
 }
+
+@media screen and (min-width:1194px) {
+
+    .componente__producto {
+        width: calc(100% / 3.5);
+    }
+
+}
+

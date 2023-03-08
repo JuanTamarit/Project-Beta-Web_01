@@ -40,7 +40,27 @@ main {
           flex-direction: column;
 }
 
+.section__ideas__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .section__hero__textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__colabora__productos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,14 +75,18 @@ main {
     padding: 0 48px 0 48px;
   }
   .section__hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     padding: 0 72px 0 72px;
+  }
+  .section__ideas__cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 32px;
   }
   .section__hero__textos {
     max-width: 45vw;
@@ -70,6 +94,16 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
     margin-right: 24px;
+  }
+  .section__colabora__productos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 56px;
   }
 }
 h1, h2, h3, h4, h5, h6 {
@@ -270,6 +304,11 @@ p strong {
   text-align: end;
 }
 
+@media screen and (min-width: 1194px) {
+  .card--simple {
+    width: 33.3333333333%;
+  }
+}
 .componente__producto {
   margin-bottom: 96px;
 }
@@ -287,10 +326,19 @@ p strong {
           justify-content: space-between;
 }
 
+.componente__producto__tituloyprecio h5:first-of-type {
+  color: var(--color-negro);
+}
+
 .componente__producto img {
   margin-bottom: 12px;
 }
 
+@media screen and (min-width: 1194px) {
+  .componente__producto {
+    width: 28.5714285714%;
+  }
+}
 footer {
   background-color: var(--color-rojo);
   padding: 0 24px;
@@ -318,4 +366,10 @@ footer ul li:not(:nth-of-type(4)) {
   text-align: end;
   padding-bottom: 24px;
   opacity: 50%;
+}
+
+@media screen and (min-width: 1194px) {
+  footer {
+    padding: 0 48px;
+  }
 }
