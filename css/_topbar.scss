@@ -6,6 +6,13 @@
     margin-bottom: 48px;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
 .topbar__logo {
     width: 63.35px;
 }
