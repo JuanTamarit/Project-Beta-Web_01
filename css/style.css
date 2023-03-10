@@ -198,6 +198,10 @@ p strong {
           transform: rotate(3.5deg);
 }
 
+.ocultar-imagen {
+  display: none;
+}
+
 .componente__producto img {
   width: 100%;
 }

@@ -1,10 +1,16 @@
 h1, h2, h3, h4, h5, h6 {
     color: var(--color-rojo);
 }
-h1 {
+h1, {
     font-size: 40px;
     font-weight: var(--peso-medium);
 }
+
+// h1,
+// .h1 {
+//     font-size: 40px;
+//     font-weight: var(--peso-medium);
+// }
 
 h2 {
     font-size: 36px;
