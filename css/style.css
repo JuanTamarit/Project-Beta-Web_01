@@ -190,7 +190,7 @@ p strong {
 
 .section__colabora h5 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .section__hero__imagen img {
@@ -353,6 +353,7 @@ p strong {
 
 .componente__producto__tituloyprecio h5:first-of-type {
   color: var(--color-negro);
+  text-align: left;
 }
 
 .componente__producto img {
