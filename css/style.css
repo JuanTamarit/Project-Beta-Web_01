@@ -110,32 +110,32 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-rojo);
 }
 
-h1 {
+h1, .h1 {
   font-size: 40px;
   font-weight: var(--peso-medium);
 }
 
-h2 {
+h2, .h2 {
   font-size: 36px;
   font-weight: var(--peso-medium);
 }
 
-h3 {
+h3, .h3 {
   font-size: 36px;
   font-weight: var(--peso-regular);
 }
 
-h4 {
+h4, .h4 {
   font-size: 32px;
   font-weight: var(--peso-regular);
 }
 
-h5 {
+h5, .h5 {
   font-size: 24px;
   font-weight: var(--peso-regular);
 }
 
-h6 {
+h6, .h6 {
   font-size: 20px;
   font-weight: var(--peso-light);
 }
@@ -252,6 +252,10 @@ p strong {
   margin-bottom: 48px;
 }
 
+.ocultar-margin-topbar {
+  margin-bottom: 0;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,15 +281,14 @@ p strong {
 .menu-desplegable {
   display: none;
   background-color: var(--color-rojo);
-  padding: 70% 0 0 24px;
+  padding: 35vh 0 0 24px;
   position: fixed;
-  z-index: 999;
   top: 96.55px;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.menu-desplegable h1, .menu-desplegable h5 {
+.menu-desplegable h1 {
   color: var(--color-gris);
 }
 

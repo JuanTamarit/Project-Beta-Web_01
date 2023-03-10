@@ -6,6 +6,10 @@
     margin-bottom: 48px;
 }
 
+.ocultar-margin-topbar {
+    margin-bottom: 0;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -24,18 +28,34 @@
 .menu-desplegable {
     display: none;
     background-color: var(--color-rojo);
-    padding: 70% 0 0 24px; 
+    padding: 35vh 0 0 24px; 
     position: fixed;
-    z-index: 999;
     top: 96.55px;
     bottom: 0;
     left: 0;
     right: 0;
     
-        h1, h5 {
+        h1 {
         color: var(--color-gris);
     }
 }
+
+// CORRECCIÓN MENÚ DESPLEGABLE
+// .menu-desplegable {
+//     display: none;
+//     background-color: var(--color-rojo);
+//     padding: 35vh 0 0 24px; 
+//     position: fixed;
+//     top: 96.55px;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     list-style: none;
+    
+//         .h1 {
+//         color: var(--color-gris);
+//     }
+// }
 
 .mostrarmenu {
     display: block;
