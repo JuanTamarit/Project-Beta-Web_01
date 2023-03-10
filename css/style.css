@@ -38,6 +38,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 144.55px;
 }
 
 .section__ideas__cards {
@@ -79,7 +80,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 0 72px 0 72px;
+    padding: 144.55px 72px 0 72px;
   }
   .section__ideas__cards {
     -webkit-box-orient: horizontal;
@@ -249,7 +250,10 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: var(--color-gris);
-  margin-bottom: 48px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .ocultar-margin-topbar {
