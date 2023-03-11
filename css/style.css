@@ -337,7 +337,9 @@ p strong {
 .componente__producto {
   margin-bottom: 96px;
 }
-
+.componente__producto img {
+  margin-bottom: 12px;
+}
 .componente__producto__tituloyprecio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,14 +352,27 @@ p strong {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .componente__producto__tituloyprecio h5:first-of-type {
-  color: var(--color-negro);
   text-align: left;
 }
-
-.componente__producto img {
-  margin-bottom: 12px;
+.componente__producto__tituloyprecio h5 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.componente__producto__descripcion {
+  margin-bottom: 24px;
+}
+.componente__producto__botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media screen and (min-width: 1194px) {

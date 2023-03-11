@@ -1,20 +1,34 @@
 .componente__producto {
     margin-bottom: 96px;
-}
-.componente__producto__tituloyprecio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
+    & img {
+        margin-bottom: 12px;
+        }
 
-.componente__producto__tituloyprecio h5:first-of-type {
-    color: var(--color-negro);
-    text-align: left;
-}
+    &__tituloyprecio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.componente__producto img {
-margin-bottom: 12px;
+    &__tituloyprecio h5:first-of-type {
+        text-align: left;
+    }
+
+    &__tituloyprecio h5 {
+        text-align: center;
+        margin-bottom: 24px;    
+      }
+
+    &__descripcion {
+        margin-bottom: 24px;
+    }
+
+    &__botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }    
 }
 
 @media screen and (min-width:1194px) {
