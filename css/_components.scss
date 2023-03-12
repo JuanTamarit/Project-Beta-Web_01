@@ -1,3 +1,4 @@
+// ESTILOS DEL COMPONENTE PARA LA HOME
 .componente__producto {
     margin-bottom: 96px;
 
@@ -37,4 +38,33 @@
         width: calc(100% / 3.5);
     }
 }
+
+// MODIFICACIONES DEL COMPONENTE ORIGINAL PARA LA PÁGINA DE PRODUCTO
+
+.paginadeproducto__contenido {
+    .componente__producto {
+        &__tituloyprecio h5 {
+            font-weight: var(--peso-medium);
+        }
+    } 
+ }
+
+ .componente__producto__seleccion .desplegable {
+    margin-bottom: 24px;
+ } 
+
+ @media screen and (min-width:1194px) {
+    .paginadeproducto__contenido .componente__producto {
+        width: 100%;
+    }
+ }
+
+
+ 
+ //
+
+
+
+
+
 

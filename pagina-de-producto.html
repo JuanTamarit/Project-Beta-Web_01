@@ -50,25 +50,59 @@
 
         <h1>CAMISETA "MAGIC"</h1>
 
-        <div class="componente__producto">
+        <div class="componente__producto js-componente__producto">
 
-            <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">
-            
-            <div class="componente__producto__tituloyprecio">
-                <h5>CAMISETA "MAGIC"</h5>
-                <h5>25€</h5>
+            <div>
+
+                <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">
+                                
             </div>
 
-            <p class="componente__producto__descripcion">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>
-            
-            <div class="componente__producto__botones">
-                <p><strong>SABER +</strong></p>
-                <p><strong><u>COMPRAR</u></strong></p>
+            <div>
+
+                <div class="componente__producto__tituloyprecio">
+                    <h5>25€</h5>
+                </div>
+
+                <p class="componente__producto__descripcion">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>              
+                                                
+                <div class="componente__producto__seleccion">
+
+                    <select class="desplegable" name="talla">
+                        <option value="TALLA">TALLA</option>
+                        <option value="S">S</option>
+                        <option value="M" selected>M</option>
+                        <option value="L">L</option>
+                        </select> 
+                    
+                    <select class="desplegable" name="cantidad">
+                        <option value="CANTIDAD">CANTIDAD</option>
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <button class="btn">AÑADIR</button>
+
+                </div>
+
             </div>
 
         </div>
         
-    </main>    
+    </main>
+    
+    <footer>
+        <ul>
+            <li><h5>ÚNETE A NUESTRA COMUNIDAD EN IG:<br>@MASLOW.STREETWEAR</h5></li>
+            <li><h5>CONTACTO</h5></li>
+            <li><h5>FAQ</h5></li>
+            <li><h5>POLÍTICA DE PRIVACIDAD</h5></li>
+        </ul>
+        <p id="creditos">Diseño y desarrollo: <br> Juan Tamarit</p>
+    </footer>
     
 <script src="/js/main.js"></script>
 </body>

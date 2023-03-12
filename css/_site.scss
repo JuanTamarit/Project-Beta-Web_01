@@ -1,3 +1,5 @@
+// ESTILOS DEL SITE EN GENERAL
+
 * {
     margin: 0;
 }
@@ -9,21 +11,42 @@ body {
 
 main {
     padding: 0 24px 0 24px;  
-
-        &.paginadeproducto__contenido {
-        padding-top: calc(96.55px + 48px);
-    } 
 }
+
+// ESTILOS EXCLUSIVOS DE LA PÁGINA DE PRODUCTO
 
 .paginadeproducto__contenido {
 
-    & .migasdepan, & h1 {
-        margin-bottom: 48px;
+    padding-top: calc(96.55px + 48px);
+    
+        & .migasdepan, & h1 {
+            margin-bottom: 48px;
+        }
+}
+
+.paginadeproducto__contenido .componente__producto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (min-width:1194px) {
+    
+    .migasdepan, .paginadeproducto__contenido h1 {
+    text-align: center;
+    }
+
+    .paginadeproducto__contenido .componente__producto {
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
     }
 
 }
 
 
+// ESTILOS EXCLUSIVOS DE LA HOME
 .section__hero, .section__ideas {
     margin-bottom: 144px;
 }
@@ -53,7 +76,7 @@ main {
 @media screen and (min-width:1194px) {
 
     main {
-        padding: 0 48px 0 48px;
+        padding: 0 240px 0 240px;
     }
 
     .section__hero {
