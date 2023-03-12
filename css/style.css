@@ -23,7 +23,7 @@ body {
 }
 
 main {
-  padding: 0 24px 0 24px;
+  padding: 144.55px 24px 0 24px;
 }
 
 .paginadeproducto__contenido {
@@ -73,7 +73,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 144.55px;
 }
 
 .section__ideas__cards {
@@ -106,9 +105,47 @@ main {
           flex-direction: column;
 }
 
+.p--strong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.h1__serif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1194px) {
+  .p--strong, .h1__serif {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+p.p--strong {
+  margin-bottom: 48px;
+}
+
+.paginadeentrada_contenido h5 {
+  margin: 48px 0 48px 0;
+  text-align: center;
+}
+
+.paginadeentrada_contenido p:last-of-type {
+  margin-bottom: 48px;
+}
+
 @media screen and (min-width: 1194px) {
   main {
-    padding: 0 48px 0 48px;
+    padding: 144.55px 48px 0 48px;
   }
   .section__hero {
     -webkit-box-orient: horizontal;
@@ -116,6 +153,9 @@ main {
         -ms-flex-direction: row;
             flex-direction: row;
     padding: 144.55px 72px 0 72px;
+  }
+  main.paginadeentrada_contenido {
+    padding: 144.55px 192px 0 192px;
   }
   .section__ideas__cards {
     -webkit-box-orient: horizontal;
@@ -179,6 +219,7 @@ h6, .h6 {
 .h1__serif {
   font-size: 32px;
   font-family: "Petrona", serif;
+  color: var(--color-negro);
 }
 
 .h2__serif--italic {
@@ -194,7 +235,7 @@ p {
   font-size: 16px;
 }
 
-p strong {
+p strong, .p--strong {
   color: var(--color-rojo);
   font-weight: var(--peso-medium);
 }
@@ -202,6 +243,7 @@ p strong {
 .p__serif {
   font-size: 20px;
   font-family: "Petrona", serif;
+  color: var(--color-negro);
 }
 
 .section__hero__textos {
@@ -232,6 +274,12 @@ p strong {
   width: 102%;
   -webkit-transform: rotate(3.5deg);
           transform: rotate(3.5deg);
+}
+
+.paginadeentrada_contenido img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
 }
 
 .ocultar-imagen {

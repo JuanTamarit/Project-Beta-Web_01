@@ -3,6 +3,12 @@
     transform: rotate(3.5deg);
 }
 
+.paginadeentrada_contenido img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+}
+
 // OCULTAR IMAGEN PARA QUE NO SOBRESALGA AL ABRIR EL MENÚ
 .ocultar-imagen {
     display: none;
