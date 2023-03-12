@@ -29,9 +29,11 @@ main {
     flex-direction: column;
 }
 
-
-
 @media screen and (min-width:1194px) {
+
+    main.paginadeproducto__contenido {
+        padding: calc(96.55px + 48px) 240px 0 240px;
+    }
     
     .migasdepan, .paginadeproducto__contenido h1 {
     text-align: center;
@@ -76,7 +78,7 @@ main {
 @media screen and (min-width:1194px) {
 
     main {
-        padding: 0 240px 0 240px;
+        padding: 0 48px 0 48px;
     }
 
     .section__hero {
