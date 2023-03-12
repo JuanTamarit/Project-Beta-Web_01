@@ -8,8 +8,21 @@ body {
 }
 
 main {
-    padding: 0 24px 0 24px;
+    padding: 0 24px 0 24px;  
+
+        &.paginadeproducto__contenido {
+        padding-top: calc(96.55px + 48px);
+    } 
 }
+
+.paginadeproducto__contenido {
+
+    & .migasdepan, & h1 {
+        margin-bottom: 48px;
+    }
+
+}
+
 
 .section__hero, .section__ideas {
     margin-bottom: 144px;
@@ -36,6 +49,7 @@ main {
     flex-direction: column;
 }
 
+// AJUSTES PARA LA RESOLUCIÓN TABLET/PORTÁTIL
 @media screen and (min-width:1194px) {
 
     main {

@@ -25,6 +25,13 @@ body {
 main {
   padding: 0 24px 0 24px;
 }
+main.paginadeproducto__contenido {
+  padding-top: 144.55px;
+}
+
+.paginadeproducto__contenido .migasdepan, .paginadeproducto__contenido h1 {
+  margin-bottom: 48px;
+}
 
 .section__hero, .section__ideas {
   margin-bottom: 144px;
