@@ -152,7 +152,7 @@ p.p--strong {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 144.55px 72px 0 72px;
+    padding: 0 72px 0 72px;
   }
   main.paginadeentrada_contenido {
     padding: 144.55px 192px 0 192px;
