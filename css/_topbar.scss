@@ -32,38 +32,24 @@
 .menu-desplegable {
     display: none;
     background-color: var(--color-rojo);
-    padding: 35vh 0 0 24px; 
+    padding-top: 35vh; 
     position: fixed;
     top: 96.55px;
     bottom: 0;
     left: 0;
     right: 0;
-    
-        h1 {
-        color: var(--color-gris);
-    }
-}
 
-// CORRECCIÓN MENÚ DESPLEGABLE
-// .menu-desplegable {
-//     display: none;
-//     background-color: var(--color-rojo);
-//     padding: 35vh 0 0 24px; 
-//     position: fixed;
-//     top: 96.55px;
-//     bottom: 0;
-//     left: 0;
-//     right: 0;
-//     list-style: none;
-    
-//         .h1 {
-//         color: var(--color-gris);
-//     }
-// }
+        ul {
+            list-style: none;                         
+            li a {
+                    color: var(--color-gris);
+                    text-decoration: none;
+            }            
+         }
+}    
 
 .mostrarmenu {
-    display: block;
-    
+    display: block;    
 }
 
 @media screen and (min-width:1194px) {
@@ -71,8 +57,6 @@
     .topbar {
         margin-bottom: 0px;
     }
-    
-
 }
 
 

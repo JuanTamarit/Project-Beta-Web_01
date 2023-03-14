@@ -368,15 +368,19 @@ p strong, .p--strong {
 .menu-desplegable {
   display: none;
   background-color: var(--color-rojo);
-  padding: 35vh 0 0 24px;
+  padding-top: 35vh;
   position: fixed;
   top: 96.55px;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.menu-desplegable h1 {
+.menu-desplegable ul {
+  list-style: none;
+}
+.menu-desplegable ul li a {
   color: var(--color-gris);
+  text-decoration: none;
 }
 
 .mostrarmenu {
