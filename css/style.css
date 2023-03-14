@@ -295,6 +295,10 @@ p strong, .p--strong {
     width: 40%;
   }
 }
+a {
+  text-decoration: none;
+}
+
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
