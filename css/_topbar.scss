@@ -14,7 +14,7 @@
     margin-bottom: 0;
 }
 
-.menu {
+.topbar__menu {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,11 +25,11 @@
     width: 63.35px;
 }
 
-.topbar__icono-menu-hamburguesa {
+.topbar__menu__icon {
     width: 47.46px;
 }
 
-.menu-desplegable {
+.topbar__menu--unfolded {
     display: none;
     background-color: var(--color-rojo);
     padding-top: 35vh; 

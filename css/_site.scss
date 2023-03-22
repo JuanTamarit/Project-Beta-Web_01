@@ -17,31 +17,31 @@ main {
 
 // ESTILOS EXCLUSIVOS DE LA PÁGINA DE PRODUCTO
 
-.paginadeproducto__contenido {
+.product-page-content {
 
     padding-top: calc(96.55px + 48px);
     
-        & .migasdepan, & h1 {
+        & .breadcrumbs, & h1 {
             margin-bottom: 48px;
         }
 }
 
-.paginadeproducto__contenido .componente__producto {
+.product-page-content .product-component {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width:1194px) {
 
-    main.paginadeproducto__contenido {
+    main.product-page-content {
         padding: calc(96.55px + 48px) 240px 0 240px;
     }
     
-    .migasdepan, .paginadeproducto__contenido h1 {
+    .breadcrumbs, .product-page-content h1 {
     text-align: center;
     }
 
-    .paginadeproducto__contenido .componente__producto {
+    .product-page-content .product-component {
         display: flex;
         flex-direction: row;
         gap: 48px;
@@ -50,62 +50,66 @@ main {
 }
 
 // ESTILOS EXCLUSIVOS DE LA HOME
-.section__hero, .section__ideas {
+.hero-section, .last-entries-section {
     margin-bottom: 144px;
 }
 
-.section__hero {
+.hero-section {
     display: flex;
     flex-direction: column;
 }
 
-.section__ideas__cards {
+.last-entries-section__cards {
     display: flex;
     flex-direction: column;
 }
 
-.section__hero__textos {
+.hero-section__texts {
     display: flex;
     flex-direction: column;
 }
 
-.section__colabora__productos {
+.shop-section__products {
     display: flex;
     flex-direction: column;
 }
 
 //ESTILOS EXCLUSIVOS DE LA PÁGINA DE PRODUCTO
 
-.p--strong {
+.entry-page-content.attribute {
     display: flex;
     margin-bottom: 12px;
     width: 100%;
 }
 
-.h1__serif {
+.h1-serif {
     display: flex;
     justify-content: left;
     margin-bottom: 12px;
 }
 
 @media screen and (min-width:1194px) {
-    .p--strong, .h1__serif {
+    .entry-page-content {
+    .attribute, .h1-serif {
+        display: flex;
         justify-content: center;
+        margin-bottom: 12px;
+    }
     }
 }
 
 //ESTILOS EXCLUSIVOS DE LA PÁGINA DE ENTRADA
 
-p.p--strong {
+p.attribute {
             margin-bottom: 48px;
     }
 
-.paginadeentrada_contenido h5 {
+.entry-page-content h5 {
 margin: 48px 0 48px 0; 
 text-align: center;
 }
 
-.paginadeentrada_contenido p:last-of-type {
+.entry-page-content p:last-of-type {
     margin-bottom: 48px;
 }
 
@@ -116,27 +120,29 @@ text-align: center;
         padding: calc(96.55px + 48px) 48px 0 48px;
     }
 
-    .section__hero {
+    .hero-section {
         flex-direction: row;
         padding: 0 72px 0 72px;
     }
 
-    main.paginadeentrada_contenido {
+    main.entry-page-content {
         padding: calc(96.55px + 48px) 192px 0 192px;
     }
     
-    .section__ideas__cards {
+    .last-entries-section__cards {
         flex-direction: row;
         gap: 32px;
     }
 
-    .section__hero__textos {
-        max-width: 45vw;   
+    .hero-section__texts {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        max-width: 45vw;           
         margin-right: 24px;
     }
 
-    .section__colabora__productos {
+    .shop-section__products {
         flex-direction: row;
         justify-content: center;
         gap: 56px;

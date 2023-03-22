@@ -1,9 +1,9 @@
-.section__hero__imagen img {
+.hero-section__image img {
     width: 102%;
     transform: rotate(3.5deg);
 }
 
-.paginadeentrada_contenido img {
+.entry-page-content img {
     width: 100%;
     height: auto;
     margin-bottom: 48px;
@@ -15,13 +15,13 @@
 }
 //
 
-.componente__producto img {
+.product-component img {
     width: 100%;
 }
 
 @media screen and (min-width:1194px) {
 
-    .section__hero__imagen {
+    .hero-section__image {
     width: 40%;
 
 

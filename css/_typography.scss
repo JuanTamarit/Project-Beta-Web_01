@@ -6,38 +6,38 @@ p {
     font-size: 16px;
 }
 
-p strong, .p--strong {
+.attribute {
     color: var(--color-rojo);
     font-weight: var(--peso-medium);
 }
 
-.p__serif {
+.text-serif {
     font-size: 20px;
     font-family: 'Petrona', serif;
     color: var(--color-negro);
 }
 
 // ESTILOS REFERENTES A TEXTOS DE LA HOME (MARGINS, COLORES ESPECÍFICOS, ETC.)
-.section__hero__textos {
+.hero-section__texts {
     margin-bottom: 40px;
 }
 
-.section__ideas h2 {
+.last-entries-section h2 {
    text-align: center;
    margin-bottom: 80px;
 }
 
-.section__ideas h5 {
+.last-entries-section h5 {
     color: var(--color-negro);
     text-align: center;
  }
 
- .section__colabora h2 {
+ .shop-section h2 {
     text-align: center;
     margin-bottom: 8px;
  }
  
- .section__colabora h5 {
+ .shop-section h5 {
     text-align: center;
     margin-bottom: 80px;    
   }

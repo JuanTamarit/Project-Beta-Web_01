@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Petrona:ital@0;1&family=Unbounded:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -17,15 +19,15 @@
         <!-- TOPBAR -->
         <div class="topbar">
             <a href="/home.html"><img class="topbar__logo" src="/img/logotipo--rojo.svg" alt="logotipo de la marca"></a>
-            <div class="menu">
-                <h6>Menú</h6>
-                <img class="topbar__icono-menu-hamburguesa" src="/img/menu-hamburguesa--rojo.svg" alt="menu hamburguesa">
+            <div class="topbar__menu">
+                <span class="h6">Menú</span>
+                <img class="topbar__menu__icon" src="/img/menu-hamburguesa--rojo.svg" alt="menu hamburguesa">
             </div>
         </div>
 
-        <!--MENÚ DESPLEGABLE  -->
-        <nav class="menu-desplegable">
-            <ul class="menu-desplegable__items">
+        <!-- MENÚ product-component__selector -->
+        <nav class="topbar__menu--unfolded">
+            <ul>
                 <li class="h1"><a href="/home.html">HOME</a></li>
                 <li class="h1"><a>MANIFIESTO</a></li>
                 <li class="h1"><a>TIENDA</a></li>
@@ -36,83 +38,63 @@
 
     </header>    
 
-    <!-- CONTENIDO ÚNICO DE LA HOME -->
+    <!-- CONTENIDO ÚNICO DE LA HOME -->    
+    <main class="home-content">
 
-    <main class="home_contenido">
+        <section class="hero-section">
 
-        <section class="section__hero">
-
-            <div class="section__hero__textos">
-
-                <h5>BIENVENIDX A MASLOW</h5>
-                <h1>NO SOMOS UNA MARCA DE ROPA, SOMOS UN PROYECTO CON VALORES</h1>
-
+            <div class="hero-section__texts">
+                <p class= "h5">BIENVENIDX A MASLOW</p>
+                <p class="h1">NO SOMOS UNA MARCA DE ROPA, SOMOS UN PROYECTO CON VALORES</p>
             </div>
 
-            <div class="section__hero__imagen">
+            <div class="hero-section__image">
                 <img src="/img/camiseta_tribe_frontal_chica.jpg" alt="imagen de una chica en bici con una camiseta de la marca">
             </div>
 
         </section>
 
-        <section class="section__ideas">
+        <section class="last-entries-section">
 
-            <div class="section__ideas__titulos">
-
+            <div class="last-entries-section_title">
                 <h2>Ideas para el cambio</h2>
-
             </div>
 
-            <div class="section__ideas__cards">
+            <div class="last-entries-section__cards">
 
-                <div class="card--simple">  
+                <div class="last-entries-section__card">  
                     <a href="/pagina-de-entrada.html">
-
-                        <div class="card--simple__caja">
-
-                            <div class="card__caja__contenido">
-                                <p><strong>02.03.23</strong></p>
-                                <div class="card__titulo"><span class="h1__serif">Reseña del libro: <br>“Vida Contemplativa: Elogio de la inactividad”, de Byung-Chul Han</span></div>
-                                <p class="card__categoria"><strong>RESEÑAS</strong></p>
+                        <div class="last-entries-section__card-box">
+                            <div class="last-entries-section__card-box-content">
+                                <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                                <div class="card__title"><span class="h1-serif">Reseña del libro: <br>“Vida Contemplativa: Elogio de la inactividad”, de Byung-Chul Han</span></div>
+                                <span class="card__category attribute">RESEÑAS</span>
                             </div>
-
                         </div>
-
-                        <p><strong>por Vicente Gómez</strong></p>
-                    </a>
+                        <span class="card__author attribute">por Vicente Gómez</span>                    
+                    </a>                    
                 </div>
 
-
-                <div class="card--simple">
-
-                    <div class="card--simple__caja">
-
-                        <div class="card__caja__contenido">
-                            <p><strong>06.02.23</strong></p>
-                            <div class="card__titulo"><span class="h1__serif">Guía de consejos útiles: <br>reciclar sin morir en el intento en época de vacas flacas</span></div>
-                            <p class="card__categoria"><strong>ARTÍCULOS</strong></p>
+                <div class="last-entries-section__card">
+                    <div class="last-entries-section__card-box">
+                        <div class="last-entries-section__card-box-content">
+                            <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                            <div class="card__title"><span class="h1-serif">Guía de consejos útiles: <br>reciclar sin morir en el intento en época de vacas flacas</span></div>
+                            <span class="card__category attribute">ARTÍCULOS</span>
                         </div>
-
                     </div>
-
-                    <p><strong>por Javier Adrián</strong></p>
-                    
+                    <span class="card__author attribute">por Javier Adrián</span>                    
                 </div>        
 
-                <div class="card--simple">
-
-                    <div class="card--simple__caja">
-
-                        <div class="card__caja__contenido">
-                            <p><strong>22.01.20</strong></p>
-                            <div class="card__titulo"><span class="h1__serif">Disminuye el consumo de carne entre la población europea según un estudio de la ASCE</span></div>
-                            <p class="card__categoria"><strong>NOTÍCIAS</strong></p>
+                <div class="last-entries-section__card">
+                    <div class="last-entries-section__card-box">
+                        <div class="last-entries-section__card-box-content">
+                            <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                            <div class="card__title"><span class="h1-serif">Disminuye el consumo de carne entre la población europea según un estudio de la ASCE</span></div>
+                            <span class="card__category attribute">NOTÍCIAS</span>
                         </div>
-
                     </div>
-
-                    <p><strong>por Laura Herrera</strong></p>
-                    
+                    <span class="card__author attribute">por Laura Herrera</span>                    
                 </div>
 
             </div>
@@ -121,76 +103,61 @@
 
         </section>
 
-        <section class="section__colabora">
+        <section class="shop-section">
 
-            <div class="section__colabora__titulos">
-
+            <div class="shop-section__titles">
                 <h2>Colabora con el proyecto</h2>
                 <h5>Prendas exclusivas diseñadas por artistas</h5>
-
             </div>
 
-            <div class="section__colabora__productos">
+            <div class="shop-section__products">
 
-                <div class="componente__producto">
-
+                <div class="product-component">
                     <img src="/img/camiseta_jump_trasera_chico.jpg" alt="camiseta modelo jump parte trasera en chico">
-
-                    <div class="componente__producto__tituloyprecio">
+                    <div class="product-component__basic-data">
                         <h5>CAMISETA "JUMP"</h5>
                         <h5>22€</h5>
                     </div>
-
-                    <p class="componente__producto__descripcion">Salta al vacío, haz aquello que quieres hacer y no te atreves. Inspirada en esos momentos de adrenalina que se dan cuando dejas de ponerte excusas y en movimientos estéticos como el brutalismo y el retrowave. </p>
-                    
-                    <div class="componente__producto__botones">
-                        <p><strong>SABER +</strong></p>
-                        <a href="/pagina-de-producto.html"><p><strong><u>COMPRAR</u></strong></p></a>
+                    <p class="product-component__description">Salta al vacío, haz aquello que quieres hacer y no te atreves. Inspirada en esos momentos de adrenalina que se dan cuando dejas de ponerte excusas y en movimientos estéticos como el brutalismo y el retrowave. </p>                    
+                    <div class="product-component__links">
+                        <span class="attribute">SABER +</span>
+                        <a href="/pagina-de-producto.html"><span class="attribute">COMPRAR</span></a>
                     </div>
-
                 </div>
 
-                <div class="componente__producto">
-
-                    <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">
-                    
-                    <div class="componente__producto__tituloyprecio">
+                <div class="product-component">
+                    <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">                    
+                    <div class="product-component__basic-data">
                         <h5>CAMISETA "MAGIC"</h5>
                         <h5>25€</h5>
                     </div>
-
-                    <p class="componente__producto__descripcion">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>
-                    
-                    <div class="componente__producto__botones">
+                    <p class="product-component__description">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>                    
+                    <div class="product-component__links">
                         <p><strong>SABER +</strong></p>
                         <p><strong><u>COMPRAR</u></strong></p>
                     </div>
-
                 </div>
 
-                <div class="componente__producto">
-
-                    <img src="/img/camiseta_tribe_frontal_chica.jpg" alt="camiseta modelo jump parte trasera en chico">
-                    
-                    <div class="componente__producto__tituloyprecio">
+                <div class="product-component">
+                    <img src="/img/camiseta_tribe_frontal_chica.jpg" alt="camiseta modelo jump parte trasera en chico">                    
+                    <div class="product-component__basic-data">
                         <h5>CAMISETA "TRIBE"</h5>
                         <h5>20€</h5>
                     </div>
-
-                    <p class="componente__producto__descripcion">Encuentra tu tribu, tu red de apoyo, aquellas personas con las que puedes ser tú mismo sin preocuparte por lo que piensen de ti. Representa uno de los valores más potentes de nuestro proyecto: Comunidad.</p>
-                    
-                    <div class="componente__producto__botones">
+                    <p class="product-component__description">Encuentra tu tribu, tu red de apoyo, aquellas personas con las que puedes ser tú mismo sin preocuparte por lo que piensen de ti. Representa uno de los valores más potentes de nuestro proyecto: Comunidad.</p>                    
+                    <div class="product-component__links">
                         <p><strong>SABER +</strong></p>
                         <p><strong><u>COMPRAR</u></strong></p>
                     </div>
-
                 </div>
                 
             </div>
+
         </section>
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <ul>
             <li><h5>ÚNETE A NUESTRA COMUNIDAD EN IG:<br>@MASLOW.STREETWEAR</h5></li>
@@ -198,10 +165,11 @@
             <li><h5>FAQ</h5></li>
             <li><h5>POLÍTICA DE PRIVACIDAD</h5></li>
         </ul>
-        <p id="creditos">Diseño y desarrollo: <br> Juan Tamarit</p>
+        <p id="footer__credits">Diseño y desarrollo: <br> Juan Tamarit</p>
     </footer>
 
-    
 <script src="/js/main.js"></script>
+
 </body>
+
 </html>

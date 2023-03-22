@@ -1,30 +1,38 @@
 
-.card--simple {
+.last-entries-section__card {
     margin-bottom: 80px;
 }
-.card--simple__caja {
+.last-entries-section__card-box {
     border-top: 2px solid var(--color-rojo);
     border-bottom: 2px solid var(--color-rojo);
     margin-bottom: 12px;
 }
 
-.card__caja__contenido {
+.last-entries-section__card-box-content {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.card__titulo {
+.card__date.attribute, .card__author.attribute {
+    display: flex;
+    justify-content: start;
+}
+
+.card__category.attribute {
+    display: flex;
+    justify-content: end;
+}
+
+.card__title {
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-.card__categoria {
-    text-align: end;
-}
+
 
 @media screen and (min-width:1194px) {
 
-    .card--simple {
+    .last-entries-section__card {
         width: calc(100% / 3);
     }
 

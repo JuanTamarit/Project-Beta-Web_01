@@ -1,13 +1,13 @@
-const iconoMenuHamburguesa = document.querySelector('.topbar__icono-menu-hamburguesa');
+const iconoMenuHamburguesa = document.querySelector('.topbar__menu__icon');
 
-const menuDesplegable = document.querySelector('.menu-desplegable'); 
+const menu = document.querySelector('.topbar__menu--unfolded'); 
 
-const imagen = document.querySelector('.section__hero__imagen');
+const imagen = document.querySelector('.hero-section__image');
 
 const topbar = document.querySelector('.topbar');
 
 iconoMenuHamburguesa.addEventListener('click', function(){
-    menuDesplegable.classList.toggle('mostrarmenu');
+    menu.classList.toggle('mostrarmenu');
     imagen.classList.toggle('ocultar-imagen');
     topbar.classList.toggle('ocultar-margin-topbar');
 });
@@ -15,8 +15,8 @@ iconoMenuHamburguesa.addEventListener('click', function(){
 
 function retocarTipografia() {
     var anchoViewport = window.innerWidth;
-    var tituloSectionColabora = document.querySelector(".section__colabora__titulos"); 
-    var tituloSectionIdeas = document.querySelector(".section__ideas__titulos")
+    var tituloSectionColabora = document.querySelector(".shop-section__titles"); 
+    var tituloSectionIdeas = document.querySelector(".last-entries-section__titulos")
     if (anchoViewport < 1194) {
       tituloSectionColabora.innerHTML = "<h2>Colabora con <br>el proyecto</h2><h5>Prendas exclusivas <br>diseñadas por artistas</h5>";
       tituloSectionIdeas.innerHTML ="<h2>Ideas para <br>el cambio</h2>";

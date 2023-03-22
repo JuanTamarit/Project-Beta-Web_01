@@ -17,59 +17,53 @@
         <!-- TOPBAR -->
         <div class="topbar">
             <a href="/home.html"><img class="topbar__logo" src="/img/logotipo--rojo.svg" alt="logotipo de la marca"></a>
-            <div class="menu">
-                <h6>Menú</h6>
-                <img class="topbar__icono-menu-hamburguesa" src="/img/menu-hamburguesa--rojo.svg" alt="menu hamburguesa">
+            <div class="topbar__menu">
+                <span class="h6">Menú</span>
+                <img class="topbar__menu__icon" src="/img/menu-hamburguesa--rojo.svg" alt="menu hamburguesa">
             </div>
         </div>
 
-        <!--MENÚ DESPLEGABLE  -->
-        <nav class="menu-desplegable">
-            <ul class="menu-desplegable__items">
+        <!-- MENÚ DESPLEGABLE -->
+        <nav class="topbar__menu--unfolded">
+            <ul>
                 <li class="h1"><a href="/home.html">HOME</a></li>
                 <li class="h1"><a>MANIFIESTO</a></li>
                 <li class="h1"><a>TIENDA</a></li>
                 <li class="h1"><a>PORTAL</a></li>
                 <li class="h1"><a>CARRITO</a></li>
-            </ul>
+            </ul> 
         </nav>
 
     </header>
 
     <!-- CONTENIDO ÚNICO DE LA PÁGINA DE PRODUCTO -->
+    <main class="product-page-content">
 
-    <main class="paginadeproducto__contenido">
-
-        <p class="migasdepan">Tienda > Camiseta "MAGIC"</p>
-
+        <p class="breadcrumbs">Tienda > Camiseta "MAGIC"</p>
         <h1>CAMISETA "MAGIC"</h1>
 
-        <div class="componente__producto js-componente__producto">
-
+        <div class="product-component">
             <div>
-
-                <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">
-                                
+                <img src="/img/camiseta_magic_trasera_chica.jpg" alt="camiseta modelo jump parte trasera en chico">                                
             </div>
 
             <div>
-
-                <div class="componente__producto__tituloyprecio">
+                <div class="product-component__basic-data">
                     <h5>25€</h5>
                 </div>
 
-                <p class="componente__producto__descripcion">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>              
+                <p class="product-component__description">Inspirada en la potente idea de que somos más capaces de lo que creemos, lo sintamos o no. Cada persona tiene un potencial enorme. No esperes a que los factores externos llenen tu vida de sentido. Sé tú quien lo haga.</p>              
                                                 
-                <div class="componente__producto__seleccion">
+                <div class="product-component__selectors">
 
-                    <select class="desplegable" name="talla">
+                    <select class="product-component__selector" name="talla">
                         <option value="TALLA">TALLA</option>
                         <option value="S">S</option>
                         <option value="M" selected>M</option>
                         <option value="L">L</option>
-                        </select> 
+                    </select> 
                     
-                    <select class="desplegable" name="cantidad">
+                    <select class="product-component__selector" name="cantidad">
                         <option value="CANTIDAD">CANTIDAD</option>
                         <option value="1">1</option>
                         <option value="2" selected>2</option>
@@ -95,7 +89,7 @@
             <li><h5>FAQ</h5></li>
             <li><h5>POLÍTICA DE PRIVACIDAD</h5></li>
         </ul>
-        <p id="creditos">Diseño y desarrollo: <br> Juan Tamarit</p>
+        <p id="footer__credits">Diseño y desarrollo: <br> Juan Tamarit</p>
     </footer>
     
 <script src="/js/main.js"></script>
