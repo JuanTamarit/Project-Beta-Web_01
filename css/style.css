@@ -105,12 +105,24 @@ main {
           flex-direction: column;
 }
 
-.entry-page-content.attribute {
+@media screen and (min-width: 1194px) {
+  main.home-content {
+    padding-top: 96.55px;
+  }
+}
+.entry-page-content .attribute {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 12px;
-  width: 100%;
+}
+.entry-page-content p.attribute {
+  margin-bottom: 48px;
+}
+.entry-page-content .h1-serif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .h1-serif {
@@ -124,7 +136,19 @@ main {
 }
 
 @media screen and (min-width: 1194px) {
-  .entry-page-content .attribute, .entry-page-content .h1-serif {
+  .entry-page-content .attribute {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 12px;
+  }
+  .entry-page-content p.attribute {
+    margin-bottom: 48px;
+  }
+  .entry-page-content .h1-serif {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -144,7 +168,7 @@ p.attribute {
 }
 
 .entry-page-content p:last-of-type {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 @media screen and (min-width: 1194px) {
@@ -290,9 +314,26 @@ p {
 .entry-page-content img {
   width: 100%;
   height: auto;
+}
+
+.entry-page-content .entry-page__image-container {
   margin-bottom: 48px;
 }
 
+.photo-caption {
+  display: block;
+  text-align: start;
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--color-negro);
+  font-weight: var(--peso-light);
+}
+
+@media screen and (min-width: 1194px) {
+  .photo-caption {
+    text-align: end;
+  }
+}
 .ocultar-imagen {
   display: none;
 }
@@ -333,7 +374,7 @@ a {
   border: 1px solid var(--color-negro);
   padding: 8px;
   width: 100%;
-  background-image: url("/img/flecha__product-component__selector.svg");
+  background-image: url("/img/flecha__desplegable.svg");
   background-size: 16px;
   background-repeat: no-repeat;
   background-position: right 12px bottom 47.5%;

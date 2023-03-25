@@ -6,8 +6,27 @@
 .entry-page-content img {
     width: 100%;
     height: auto;
+}
+
+.entry-page-content .entry-page__image-container {
     margin-bottom: 48px;
 }
+
+.photo-caption {
+display: block;
+text-align: start;
+margin-top: 8px;
+font-size: 14px;
+color: var(--color-negro);
+font-weight: var(--peso-light);
+}
+
+@media screen and (min-width:1194px) {
+ .photo-caption {
+text-align: end;
+}
+}
+
 
 // OCULTAR IMAGEN PARA QUE NO SOBRESALGA AL ABRIR EL MENÚ
 .ocultar-imagen {

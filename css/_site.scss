@@ -74,12 +74,25 @@ main {
     flex-direction: column;
 }
 
+@media screen and (min-width:1194px) {
+main.home-content {
+    padding-top: 96.55px;
+}
+}
+
 //ESTILOS EXCLUSIVOS DE LA PÁGINA DE PRODUCTO
 
-.entry-page-content.attribute {
-    display: flex;
-    margin-bottom: 12px;
-    width: 100%;
+.entry-page-content {
+    .attribute {
+        display: flex;
+        margin-bottom: 12px;
+    }
+    p.attribute {
+        margin-bottom: 48px;
+    }
+    .h1-serif {
+        display: flex;
+    }
 }
 
 .h1-serif {
@@ -90,19 +103,30 @@ main {
 
 @media screen and (min-width:1194px) {
     .entry-page-content {
-    .attribute, .h1-serif {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 12px;
-    }
+        .attribute {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+        p.attribute {
+            margin-bottom: 48px;
+        }
+        .h1-serif {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;            
+        }
     }
 }
 
 //ESTILOS EXCLUSIVOS DE LA PÁGINA DE ENTRADA
 
+
 p.attribute {
             margin-bottom: 48px;
     }
+
+
 
 .entry-page-content h5 {
 margin: 48px 0 48px 0; 
@@ -110,7 +134,7 @@ text-align: center;
 }
 
 .entry-page-content p:last-of-type {
-    margin-bottom: 48px;
+    margin-bottom: 96px;
 }
 
 // AJUSTES PARA LA RESOLUCIÓN TABLET/PORTÁTIL
