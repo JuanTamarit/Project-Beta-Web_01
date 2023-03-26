@@ -18,6 +18,13 @@ p {
 }
 
 // ESTILOS REFERENTES A TEXTOS DE LA HOME (MARGINS, COLORES ESPECÍFICOS, ETC.)
+.more-entries {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: var(--color-bg-negro);
+}
+
 .hero-section__texts {
     margin-bottom: 40px;
 }
