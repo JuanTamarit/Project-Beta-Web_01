@@ -408,6 +408,15 @@ a {
   border: 0;
   padding: 8px;
   width: 100%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover, .btn:active {
+  color: var(--color-rojo);
+  background-color: var(--color-gris);
+  border: solid 1px var(--color-rojo);
+  cursor: pointer;
 }
 
 .product-component__selector {
