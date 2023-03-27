@@ -32,3 +32,16 @@ function retocarTipografia() {
   retocarTipografia();
   
   window.addEventListener("resize", retocarTipografia);
+
+  const homeCard = document.querySelector('.js-home-card');
+  const homeCardText = document.querySelector('.js-home-card__text');
+
+  homeCard.addEventListener('mouseenter', () => {
+    alert('esto tira');
+    homeCardText.classList.add('font-size-increase');
+});
+
+
+  homeCard.addEventListener('mouseleave', () => {
+    homeCardText.classList.remove('font-size-increase');
+  });

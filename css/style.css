@@ -543,6 +543,10 @@ a {
   margin-bottom: 24px;
 }
 
+.font-size-increase h3.h1-serif {
+  font-size: 34px;
+}
+
 @media screen and (min-width: 1194px) {
   .last-entries-section__card {
     width: 33.3333333333%;
