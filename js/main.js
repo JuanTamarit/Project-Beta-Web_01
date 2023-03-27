@@ -33,8 +33,8 @@ function retocarTipografia() {
   
   window.addEventListener("resize", retocarTipografia);
 
-  const homeCard = document.querySelector('.js-home-card');
-  const homeCardText = document.querySelector('.js-home-card__text');
+  const homeCard = document.querySelector('a.js-home-card');
+  const homeCardText = document.querySelector('.js-home-card .js-home-card__text');
 
   homeCard.addEventListener('mouseenter', () => {
     alert('esto tira');

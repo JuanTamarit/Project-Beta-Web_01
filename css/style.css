@@ -630,6 +630,18 @@ footer ul li {
   padding: 24px 0px;
 }
 
+footer ul li div {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+footer ul li div:hover {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
 footer ul li:not(:nth-of-type(4)) {
   border-bottom: 2px solid var(--color-gris);
 }

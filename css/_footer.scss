@@ -16,6 +16,14 @@ footer ul li {
     padding: 24px 0px;
 }
 
+footer ul li div {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer ul li div:hover {
+    transform: translateX(10px);
+}
+
 footer ul li:not(:nth-of-type(4)) {
     border-bottom: 2px solid var(--color-gris);
 }
