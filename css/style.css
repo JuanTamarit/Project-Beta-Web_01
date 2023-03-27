@@ -360,6 +360,45 @@ a {
   text-decoration: none;
 }
 
+.more-entries {
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.more-entries:hover {
+  color: var(--color-rojo);
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.product-component__links .attribute {
+  position: relative;
+  display: inline-block;
+}
+
+.product-component__links .attribute:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-rojo);
+  -webkit-animation: underline-animation 0.25s ease-in-out forwards;
+          animation: underline-animation 0.25s ease-in-out forwards;
+}
+
+@-webkit-keyframes underline-animation {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes underline-animation {
+  to {
+    width: 100%;
+  }
+}
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
