@@ -2,13 +2,19 @@ a {
     text-decoration: none;
 }
 
-.more-entries {
-    transition: color 0.2s ease-in-out;
-
+.more-entries-link__text {
+    position: relative;
+    display: inline-block;
 }
-.more-entries:hover {
-    color: var(--color-rojo);
-    transition: color 0.2s ease-in-out;
+.more-entries-link__text:hover::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: var(--color-negro); 
+    animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
 .product-component__links .attribute {

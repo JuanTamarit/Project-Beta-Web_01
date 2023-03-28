@@ -283,11 +283,18 @@ p {
   color: var(--color-negro);
 }
 
-.more-entries {
+.more-entries-link__container {
   display: block;
   text-align: center;
   font-size: 24px;
-  color: var(--color-bg-negro);
+  color: var(--color-negro);
+}
+
+.more-entries-link__text {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-negro);
 }
 
 .hero-section__texts {
@@ -360,15 +367,21 @@ a {
   text-decoration: none;
 }
 
-.more-entries {
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+.more-entries-link__text {
+  position: relative;
+  display: inline-block;
 }
 
-.more-entries:hover {
-  color: var(--color-rojo);
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+.more-entries-link__text:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-negro);
+  -webkit-animation: underline-animation 0.25s ease-in-out forwards;
+          animation: underline-animation 0.25s ease-in-out forwards;
 }
 
 .product-component__links .attribute {
