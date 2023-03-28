@@ -61,8 +61,7 @@ main {
     gap: 48px;
   }
 }
-ESTILOS EXCLUSIVOS DE LA HOME .hero-section,
-.last-entries-section {
+.hero-section, .last-entries-section {
   margin-bottom: 144px;
 }
 
@@ -609,8 +608,16 @@ nav ul li div:hover, nav ul li div:active {
   margin-bottom: 24px;
 }
 
-.font-size-increase h3.h1-serif {
-  font-size: 34px;
+div.last-entries-section__card {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+div.last-entries-section__card:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
 }
 
 @media screen and (min-width: 1194px) {

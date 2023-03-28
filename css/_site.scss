@@ -49,7 +49,35 @@ main {
 
 }
 
-ESTILOS EXCLUSIVOS DE LA HOME
+// ESTILOS EXCLUSIVOS DE LA HOME
+
+// .hero-section__texts {
+// animation: fadeIn 0.5s linear forwards;
+// }
+
+// @keyframes fadeIn {
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// }
+
+// .hero-section__image {
+//     animation: fadeIn 0.5s linear forwards;
+//     }
+    
+//     @keyframes fadeIn {
+//       from {
+//         opacity: 0;
+//       }
+//       to {
+//         opacity: 1;
+//       }
+//     }
+    
+
 .hero-section, .last-entries-section {
     margin-bottom: 144px;
 }
