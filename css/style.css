@@ -372,6 +372,10 @@ a {
   display: inline-block;
 }
 
+.hide {
+  display: none;
+}
+
 .more-entries-link__text:hover::after {
   content: "";
   position: absolute;
@@ -412,6 +416,23 @@ a {
     width: 100%;
   }
 }
+nav ul li div {
+  color: var(--color-gris);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+nav ul li div:hover, nav ul li div:active {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.topbar__menu-icon:hover {
+  cursor: pointer;
+}
+
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
@@ -487,7 +508,7 @@ a {
   width: 63.35px;
 }
 
-.topbar__menu__icon {
+.topbar__menu-icon {
   width: 47.46px;
 }
 
@@ -500,6 +521,13 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .topbar__menu--unfolded ul {
   list-style: none;
@@ -509,6 +537,23 @@ a {
   text-decoration: none;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .mostrarmenu {
   display: block;
 }
@@ -516,6 +561,14 @@ a {
 @media screen and (min-width: 1194px) {
   .topbar {
     margin-bottom: 0px;
+  }
+  .topbar__menu--unfolded.mostrarmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .last-entries-section__card {
@@ -630,7 +683,7 @@ footer {
   padding: 0 24px;
 }
 
-footer .h5 {
+footer ul a {
   color: var(--color-gris);
 }
 
@@ -650,7 +703,7 @@ footer ul li div {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-footer ul li div:hover {
+footer ul li div:hover, footer ul li div:active {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
 }

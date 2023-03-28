@@ -6,7 +6,12 @@ a {
     position: relative;
     display: inline-block;
 }
-.more-entries-link__text:hover::after {
+
+.hide {
+display: none;
+}
+
+.more-entries-link__text:hover::after, {
     content: ''; 
     position: absolute; 
     bottom: 0; 
@@ -38,6 +43,15 @@ a {
       width: 100%; 
     }
   }
+
+nav ul li div {
+    color: var(--color-gris);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li div:hover, nav ul li div:active {
+    transform: translateX(10px);
+}
 
 
 

@@ -3,7 +3,7 @@ footer {
     padding: 0 24px;
 }
 
-footer .h5 {
+footer ul a {
     color: var(--color-gris);
 }
 
@@ -20,7 +20,7 @@ footer ul li div {
     transition: transform 0.3s ease-in-out;
 }
 
-footer ul li div:hover {
+footer ul li div:hover, footer ul li div:active {
     transform: translateX(10px);
 }
 

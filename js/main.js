@@ -1,4 +1,4 @@
-const iconoMenuHamburguesa = document.querySelector('.topbar__menu__icon');
+const iconoMenuHamburguesa = document.querySelector('.topbar__menu-icon');
 
 const menu = document.querySelector('.topbar__menu--unfolded'); 
 
@@ -6,10 +6,13 @@ const imagen = document.querySelector('.hero-section__image');
 
 const topbar = document.querySelector('.topbar');
 
+const moreEntriesLink = document.querySelector('.more-entries-link__text')
+
 iconoMenuHamburguesa.addEventListener('click', function(){
     menu.classList.toggle('mostrarmenu');
     imagen.classList.toggle('ocultar-imagen');
     topbar.classList.toggle('ocultar-margin-topbar');
+    moreEntriesLink.classList.toggle('hide');
 });
 
 
