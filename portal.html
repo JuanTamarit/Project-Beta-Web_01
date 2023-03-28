@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maslow | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital@0;1&family=Unbounded:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- TOPBAR -->
+        <div class="topbar">
+            <a href="/home.html"><img class="topbar__logo" src="/img/logotipo--rojo.svg" alt="logotipo de la marca"></a>
+            <div class="topbar__menu">
+                <span class="h6">Menú</span>
+                <img class="topbar__menu-icon" src="/img/menu-hamburguesa--rojo.svg" alt="menu hamburguesa">
+            </div>
+        </div>
+
+        <!-- MENÚ DESPLEGABLE -->
+        <nav class="topbar__menu--unfolded">
+            <ul class="h1">
+                <a href="/home.html"><li><div>HOME</div></li></a>
+                <a href="/home.html"><li><div>MANIFIESTO</div></li></a>
+                <a href="/home.html"><li><div>TIENDA</div></li></a>
+                <a href="/home.html"><li><div>PORTAL</div></li></a>
+                <a href="/home.html"><li><div>CARRITO</div></li></a>
+            </ul> 
+        </nav>
+
+    </header> 
+
+    <!-- CONTENIDO ÚNICO DEL PORTAL -->
+    <main class="portal-content">
+        <h1>PORTAL</h1>
+        <h2 class="h4">Ideas para un cambio de paradigma</h2>
+        <ul class="portal__categories-nav">
+            <a href="/home.html"><li><h3 class="h5">ÚLTIMAS ENTRADAS</h3></li></a>
+            <span style="color: var(--color-negro);" class="h5">/</span>
+            <a href="/home.html"><li><h3 class="h5">NOTÍCIAS</h3></li></a>
+            <span style="color: var(--color-negro);" class="h5">/</span>
+            <a href="/home.html"><li><h3 class="h5">ARTÍCULOS</h3></li></a>
+            <span style="color: var(--color-negro);" class="h5">/</span>
+            <a href="/home.html"><li><h3 class="h5">RESEÑAS</h3></li></a>
+            <span style="color: var(--color-negro);" class="h5">/</span>
+        </ul>
+    </main>
+
+    <section class="last-entries-section">        
+
+        <div class="last-entries-section__cards">
+
+            <div class="last-entries-section__card">  
+                <a class="js-home-card" href="/pagina-de-entrada.html">
+                    <div class="last-entries-section__card-box">
+                        <div class="last-entries-section__card-box-content">
+                            <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                            <div class="card__title"><h3 class="h1-serif js-home-card__text">Reseña del libro: <br>“Vida Contemplativa: Elogio de la inactividad”, de Byung-Chul Han</h3></div>
+                            <span class="card__category attribute">RESEÑAS</span>
+                        </div>
+                    </div>
+                    <span class="card__author attribute">por Vicente Gómez</span>                    
+                </a>                    
+            </div>
+
+            <div class="last-entries-section__card">
+                <div class="last-entries-section__card-box">
+                    <div class="last-entries-section__card-box-content">
+                        <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                        <div class="card__title"><h3 class="h1-serif">Guía de consejos útiles: <br>reciclar sin morir en el intento en época de vacas flacas</h3></div>
+                        <span class="card__category attribute">ARTÍCULOS</span>
+                    </div>
+                </div>
+                <span class="card__author attribute">por Javier Adrián</>                    
+            </div>        
+
+            <div class="last-entries-section__card">
+                <div class="last-entries-section__card-box">
+                    <div class="last-entries-section__card-box-content">
+                        <time datetime="2023-03-02" class="card__date attribute">02.03.23</time>
+                        <div class="card__title"><h3 class="h1-serif">Disminuye el consumo de carne entre la población europea según un estudio de la ASCE</h3></div>
+                        <span class="card__category attribute">NOTÍCIAS</span>
+                    </div>
+                </div>
+                <span class="card__author attribute">por Laura Herrera</span>                    
+            </div>
+
+        </div>
+
+    </section>

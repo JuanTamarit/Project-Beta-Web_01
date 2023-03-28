@@ -42,4 +42,20 @@
     background-position: right 12px bottom 47.5%;
 }
 
+.portal-content ul a li {
+    position: relative;
+    display: inline-block;
+}
+
+.portal-content ul a li:hover::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: var(--color-rojo); 
+    animation: underline-animation 0.25s ease-in-out forwards; 
+}
+
 
