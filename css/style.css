@@ -112,13 +112,15 @@ main {
 }
 
 .shop-section__titles h3 {
-  text-align: center;
   margin-bottom: 80px;
 }
 
 @media screen and (min-width: 1194px) {
   main.home-content {
     padding-top: 96.55px;
+  }
+  .shop-section__titles h3 {
+    text-align: center;
   }
 }
 .entry-page-content .attribute {
@@ -320,7 +322,7 @@ h6, .h6 {
   color: var(--color-negro);
 }
 
-.h2__serif--italic {
+p.h2-serif-italic {
   font-size: 36px;
   font-family: "Petrona", serif;
   font-style: italic;
@@ -424,12 +426,6 @@ p {
     width: 40%;
   }
 }
-.last-entries-section__img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 16px;
-}
-
 a {
   text-decoration: none;
 }
@@ -640,6 +636,9 @@ nav ul li div:hover, nav ul li div:active {
 }
 .mostrarmenu {
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (min-width: 1194px) {
@@ -647,13 +646,16 @@ nav ul li div:hover, nav ul li div:active {
     margin-bottom: 0px;
   }
   .topbar__menu--unfolded.mostrarmenu {
-    padding-top: 15%;
+    padding-top: 0vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .last-entries-section__card {
@@ -712,12 +714,15 @@ div.last-entries-section__card:hover {
   }
 }
 .last-entries-section__img-container {
+  background-color: var(--color-rojo);
   width: 100%;
   height: 250px;
   margin-bottom: 12px;
 }
 
 .last-entries-section__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }

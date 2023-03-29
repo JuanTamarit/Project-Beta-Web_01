@@ -35,6 +35,7 @@
     padding-top: 35vh; 
     position: fixed;
     top: 96.55px;
+    // top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -64,6 +65,7 @@
 
 .mostrarmenu {
     display: block;    
+    display: flex;
 }
 
 @media screen and (min-width:1194px) {
@@ -73,9 +75,10 @@
     }
 
     .topbar__menu--unfolded.mostrarmenu {
-    padding-top: 15%;
+    padding-top: 0vh;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    align-items: center;
     
     }
 }

@@ -8,6 +8,8 @@ const topbar = document.querySelector('.topbar');
 
 const moreEntriesLink = document.querySelector('.more-entries-link__text')
 
+const credits = document.querySelector('#footer__credits')
+
 
 
 iconoMenuHamburguesa.addEventListener('click', function(){
@@ -15,6 +17,8 @@ iconoMenuHamburguesa.addEventListener('click', function(){
     imagen.classList.toggle('ocultar-imagen');
     topbar.classList.toggle('ocultar-margin-topbar');
     moreEntriesLink.classList.toggle('hide'); 
+    credits.classList.toggle('hide'); 
+
 
 });
 

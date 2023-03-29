@@ -48,14 +48,25 @@ div.last-entries-section__card:hover {
 
 //CARDS DEL PORTAL
 
+// .last-entries-section__img-container {
+//     width: 100%;
+//     height: 250px;    
+//     margin-bottom: 12px;
+//     }
+
 .last-entries-section__img-container {
+    background-color: var(--color-rojo);
     width: 100%;
-    height: 250px;    
+    height: 250px;
     margin-bottom: 12px;
-    }
+}
 
 .last-entries-section__img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
+
+
       
 
