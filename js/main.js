@@ -43,9 +43,13 @@ function retocarTipografia() {
 
   const lastEntriesCategory = document.querySelector('.portal__last-entries-category');
   const cardsSection = document.querySelector('.last-entries-section');
-  lastEntriesCategory.addEventListener('click', function() {
+  function showPostsByCategory(){
     cardsSection.innerHTML = "<h2>Colabora con <br>el proyecto</h2><h5>Prendas exclusivas <br>diseñadas por artistas</h5>";
-  });
+  }
+
+  lastEntriesCategory.addEventListener('click', showPostsByCategory);
+
+  
 
 
     
