@@ -17,6 +17,11 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-behavior: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
 body {
   background-color: var(--color-bg-gris);
   font-family: "Unbounded", sans-serif;
@@ -104,6 +109,11 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.shop-section__titles h3 {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 @media screen and (min-width: 1194px) {
@@ -227,7 +237,14 @@ p.attribute {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 68px;
+  margin-bottom: 100px;
+}
+.portal__categories-nav h3 {
+  font-weight: var(--peso-light);
+}
+.portal__categories-nav span {
+  color: var(--color-negro);
+  font-weight: var(--peso-light);
 }
 
 ul {
@@ -235,7 +252,7 @@ ul {
 }
 
 .portal-content h2 {
-  margin-bottom: 68px;
+  margin-bottom: 36px;
 }
 
 .portal-content ul {
@@ -253,6 +270,16 @@ ul {
   gap: 8px;
 }
 
+@media screen and (min-width: 1194px) {
+  .portal-content h1, .portal-content h2 {
+    text-align: center;
+  }
+  .portal-content .portal__categories-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: var(--color-rojo);
 }
@@ -397,6 +424,12 @@ p {
     width: 40%;
   }
 }
+.last-entries-section__img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
 }
@@ -510,7 +543,7 @@ nav ul li div:hover, nav ul li div:active {
   display: inline-block;
 }
 
-.portal-content ul a li:hover::after {
+.portal-content ul a li:hover::after, .portal-content ul a li:active::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -614,6 +647,7 @@ nav ul li div:hover, nav ul li div:active {
     margin-bottom: 0px;
   }
   .topbar__menu--unfolded.mostrarmenu {
+    padding-top: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -677,6 +711,17 @@ div.last-entries-section__card:hover {
     width: 33.3333333333%;
   }
 }
+.last-entries-section__img-container {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 12px;
+}
+
+.last-entries-section__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .product-component {
   margin-bottom: 96px;
 }

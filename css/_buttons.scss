@@ -47,7 +47,7 @@
     display: inline-block;
 }
 
-.portal-content ul a li:hover::after {
+.portal-content ul a li:hover::after, .portal-content ul a li:active::after {
     content: ''; 
     position: absolute; 
     bottom: 0; 

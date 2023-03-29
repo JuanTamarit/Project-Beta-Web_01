@@ -8,11 +8,14 @@ const topbar = document.querySelector('.topbar');
 
 const moreEntriesLink = document.querySelector('.more-entries-link__text')
 
+
+
 iconoMenuHamburguesa.addEventListener('click', function(){
     menu.classList.toggle('mostrarmenu');
     imagen.classList.toggle('ocultar-imagen');
     topbar.classList.toggle('ocultar-margin-topbar');
-    moreEntriesLink.classList.toggle('hide');
+    moreEntriesLink.classList.toggle('hide'); 
+
 });
 
 
@@ -36,15 +39,23 @@ function retocarTipografia() {
   
   window.addEventListener("resize", retocarTipografia);
 
-  const homeCard = document.querySelector('a.js-home-card');
-  const homeCardText = document.querySelector('.js-home-card .js-home-card__text');
+  // FUNCIONALIDAD: NAVEGACIÓN DEL PORTAL
 
-  homeCard.addEventListener('mouseenter', () => {
-    alert('esto tira');
-    homeCardText.classList.add('font-size-increase');
-});
-
-
-  homeCard.addEventListener('mouseleave', () => {
-    homeCardText.classList.remove('font-size-increase');
+  const lastEntriesCategory = document.querySelector('.portal__last-entries-category');
+  const cardsSection = document.querySelector('.last-entries-section');
+  lastEntriesCategory.addEventListener('click', function() {
+    cardsSection.innerHTML = "<h2>Colabora con <br>el proyecto</h2><h5>Prendas exclusivas <br>diseñadas por artistas</h5>";
   });
+
+
+    
+
+  
+
+
+
+
+
+  
+  
+  
