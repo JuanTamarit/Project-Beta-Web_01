@@ -223,6 +223,15 @@ text-align: center;
         justify-content: center;
         max-width: 45vw;           
         margin-right: 24px;
+
+        .h1 {
+            margin-bottom: 8px; 
+            // text-align: end;           
+        }   
+
+        .h6 {
+            // font-size: 16px;
+        }
     }
 
     .shop-section__products {
