@@ -327,6 +327,32 @@ ul {
     max-width: 50%;
   }
 }
+.manifest-page-content span.h4 {
+  display: block;
+  margin-bottom: 48px;
+}
+
+.manifest-page-content p.h4 {
+  margin: 48px 0 48px 0;
+  text-align: center;
+}
+
+.manifest-page-content p:last-of-type {
+  margin-bottom: 96px;
+}
+
+@media screen and (min-width: 1194px) {
+  .manifest-page-content h1, .manifest-page-content .h4 {
+    display: block;
+    text-align: center;
+  }
+  .manifest-page-content p {
+    font-weight: var(--peso-regular);
+  }
+  main.manifest-page-content {
+    padding: 144.55px 192px 0 192px;
+  }
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: var(--color-rojo);
 }
@@ -471,6 +497,21 @@ p {
     width: 40%;
   }
 }
+.manifest-page__image-container {
+  background-color: red;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 48px;
+}
+
+.manifest-page-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 68px;
+}
+
 a {
   text-decoration: none;
 }

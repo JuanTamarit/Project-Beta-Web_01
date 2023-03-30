@@ -326,3 +326,37 @@ ul {
     }
 }
 
+// ESTILOS EXCLUSIVOS DEL MANIFIESTO
+
+.manifest-page-content span.h4 {
+    display: block;
+    margin-bottom: 48px;
+}
+
+.manifest-page-content p.h4 {
+    margin: 48px 0 48px 0; 
+    text-align: center;
+    }
+    
+.manifest-page-content p:last-of-type {
+        margin-bottom: 96px;
+    }
+
+@media screen and (min-width:1194px) {  
+
+    .manifest-page-content {
+        h1, .h4 {
+            display: block;
+            text-align: center
+        } 
+        p {
+            font-weight: var(--peso-regular)
+        }
+    }
+
+    main.manifest-page-content {
+        padding: calc(96.55px + 48px) 192px 0 192px;
+    }
+
+}
+
