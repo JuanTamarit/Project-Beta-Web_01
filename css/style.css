@@ -31,6 +31,10 @@ main {
   padding: 144.55px 24px 0 24px;
 }
 
+.hero-section__texts > .h5, .portal-content h1, .shop-page-content h1 {
+  margin-bottom: 4px;
+}
+
 .product-page-content {
   padding-top: 144.55px;
 }
@@ -245,7 +249,7 @@ p.attribute {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 108px;
 }
 .portal__categories-nav h3 {
   font-weight: var(--peso-light);
@@ -260,7 +264,7 @@ ul {
 }
 
 .portal-content h2 {
-  margin-bottom: 36px;
+  margin-bottom: 48px;
 }
 
 .portal-content ul {
@@ -290,6 +294,37 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+.shop-page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shop-page-content h2 {
+  margin-bottom: 96px;
+  font-weight: var(--peso-regular);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (min-width: 1194px) {
+  .shop-page-content h1, .shop-page-content h2 {
+    text-align: center;
+  }
+  .shop-page-content h2 {
+    max-width: 65%;
+  }
+}
+@media screen and (min-width: 1861px) {
+  .shop-page-content h2 {
+    max-width: 50%;
   }
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

@@ -20,6 +20,18 @@ main {
 
 }
 
+.hero-section__texts  > .h5, .portal-content h1, .shop-page-content h1 {
+    margin-bottom: 4px;
+}
+
+// .portal-content h1 {
+//     margin-bottom: 8px;
+// }
+
+// .hero-section__texts > .h5 {
+//     margin-bottom: 8px;
+// }
+
 // ESTILOS EXCLUSIVOS DE LA PÁGINA DE PRODUCTO
 
 .product-page-content {
@@ -56,9 +68,7 @@ main {
 
 // ESTILOS EXCLUSIVOS DE LA HOME
 
-// .hero-section__texts {
-// animation: fadeIn 0.5s linear forwards;
-// }
+
 
 // @keyframes fadeIn {
 //   from {
@@ -234,7 +244,7 @@ text-align: center;
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 108px;
 
         h3 {
         font-weight: var(--peso-light);
@@ -251,8 +261,10 @@ ul {
 }
 
 .portal-content h2 {
-    margin-bottom: 36px;
+    margin-bottom: 48px;
 }
+
+
 
 .portal-content ul {
     padding-left: 0;
@@ -280,3 +292,37 @@ ul {
         }
     } 
 }
+
+// ESTILOS EXCLUSIVOS DE LA TIENDA
+.shop-page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-page-content h2 {
+    margin-bottom: 96px;
+    font-weight: var(--peso-regular);
+    align-self: center;
+    
+}
+
+@media screen and (min-width:1194px) {
+    .shop-page-content {
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h2 {
+            max-width: 65%;
+        }
+    }
+
+}
+
+@media screen and (min-width:1861px) {
+    .shop-page-content h2 {
+        max-width: 50%;        
+    }
+}
+
