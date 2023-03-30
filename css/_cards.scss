@@ -41,7 +41,7 @@ div.last-entries-section__card:hover {
 @media screen and (min-width:1194px) {
 
     .last-entries-section__card {
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 22px);
     }
 
 }

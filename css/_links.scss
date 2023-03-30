@@ -38,6 +38,29 @@ display: none;
     animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
+.portal-content__shop-link {
+    text-align: end;
+    margin-bottom: 96px;
+
+}
+
+.portal-content__shop-link > a {
+    position: relative;
+    display: inline-block;
+}
+
+.portal-content__shop-link > a:hover::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: var(--color-rojo); 
+    animation: underline-animation 0.25s ease-in-out forwards; 
+}
+
+
 @keyframes underline-animation {
     to {
       width: 100%; 

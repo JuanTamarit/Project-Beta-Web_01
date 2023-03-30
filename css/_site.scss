@@ -199,6 +199,7 @@ text-align: center;
     
     .last-entries-section__cards {
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 32px;
     }
 
@@ -257,6 +258,8 @@ ul {
     margin-left: 0;
     gap: 8px;
 }
+
+
 
 @media screen and (min-width:1194px) {
     .portal-content {

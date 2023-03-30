@@ -203,6 +203,8 @@ p.attribute {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 32px;
   }
   .hero-section__texts {
@@ -468,6 +470,28 @@ a {
           animation: underline-animation 0.25s ease-in-out forwards;
 }
 
+.portal-content__shop-link {
+  text-align: end;
+  margin-bottom: 96px;
+}
+
+.portal-content__shop-link > a {
+  position: relative;
+  display: inline-block;
+}
+
+.portal-content__shop-link > a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-rojo);
+  -webkit-animation: underline-animation 0.25s ease-in-out forwards;
+          animation: underline-animation 0.25s ease-in-out forwards;
+}
+
 @-webkit-keyframes underline-animation {
   to {
     width: 100%;
@@ -710,7 +734,7 @@ div.last-entries-section__card:hover {
 
 @media screen and (min-width: 1194px) {
   .last-entries-section__card {
-    width: 33.3333333333%;
+    width: calc(33.3333333333% - 22px);
   }
 }
 .last-entries-section__img-container {
