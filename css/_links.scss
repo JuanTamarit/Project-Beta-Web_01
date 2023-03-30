@@ -49,7 +49,7 @@ display: none;
     display: inline-block;
 }
 
-.portal-content__shop-link > a:hover::after {
+.portal-content__shop-link > a:hover::after, .portal-content__shop-link > a:active::after {
     content: ''; 
     position: absolute; 
     bottom: 0; 

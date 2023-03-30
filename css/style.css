@@ -70,6 +70,10 @@ main {
   margin-bottom: 144px;
 }
 
+.portal-content > .last-entries-section {
+  margin-bottom: 72px;
+}
+
 .hero-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,6 +276,10 @@ ul {
       flex-wrap: wrap;
   margin-left: 0;
   gap: 8px;
+}
+
+.h2-serif-italic {
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 1194px) {
@@ -480,7 +488,7 @@ a {
   display: inline-block;
 }
 
-.portal-content__shop-link > a:hover::after {
+.portal-content__shop-link > a:hover::after, .portal-content__shop-link > a:active::after {
   content: "";
   position: absolute;
   bottom: 0;

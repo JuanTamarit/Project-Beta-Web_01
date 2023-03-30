@@ -87,6 +87,10 @@ main {
     margin-bottom: 144px;
 }
 
+.portal-content > .last-entries-section {
+    margin-bottom: calc(96px - 24px);
+}
+
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -257,6 +261,10 @@ ul {
     flex-wrap: wrap;
     margin-left: 0;
     gap: 8px;
+}
+
+.h2-serif-italic {
+    margin-bottom: 16px;
 }
 
 
