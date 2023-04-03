@@ -10,7 +10,7 @@
 
 }
 
-.ocultar-margin-topbar {
+.hide-topbar-margin {
     margin-bottom: 0;
 }
 
@@ -63,7 +63,7 @@
     }
 };
 
-.mostrarmenu {
+.show-menu {
     display: block;    
     display: flex;
 }
@@ -74,7 +74,7 @@
         margin-bottom: 0px;
     }
 
-    .topbar__menu--unfolded.mostrarmenu {
+    .topbar__menu--unfolded.show-menu {
     padding-top: 0vh;
     display: flex;
     justify-content: center; 

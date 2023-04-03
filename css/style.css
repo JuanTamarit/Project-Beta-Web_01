@@ -487,7 +487,7 @@ p {
     text-align: end;
   }
 }
-.ocultar-imagen {
+.hide-image {
   display: none;
 }
 
@@ -693,7 +693,7 @@ nav ul li div:hover, nav ul li div:active {
   z-index: 999;
 }
 
-.ocultar-margin-topbar {
+.hide-topbar-margin {
   margin-bottom: 0;
 }
 
@@ -761,7 +761,7 @@ nav ul li div:hover, nav ul li div:active {
     opacity: 1;
   }
 }
-.mostrarmenu {
+.show-menu {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,7 +772,7 @@ nav ul li div:hover, nav ul li div:active {
   .topbar {
     margin-bottom: 0px;
   }
-  .topbar__menu--unfolded.mostrarmenu {
+  .topbar__menu--unfolded.show-menu {
     padding-top: 0vh;
     display: -webkit-box;
     display: -ms-flexbox;

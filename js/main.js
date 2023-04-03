@@ -13,9 +13,9 @@ const credits = document.querySelector('#footer__credits')
 
 
 iconoMenuHamburguesa.addEventListener('click', function(){
-    menu.classList.toggle('mostrarmenu');
-    imagen.classList.toggle('ocultar-imagen');
-    topbar.classList.toggle('ocultar-margin-topbar');
+    menu.classList.toggle('show-menu');
+    imagen.classList.toggle('hide-image');
+    topbar.classList.toggle('hide-topbar-margin');
     moreEntriesLink.classList.toggle('hide'); 
     credits.classList.toggle('hide'); 
 
