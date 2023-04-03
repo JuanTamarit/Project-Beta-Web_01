@@ -2,7 +2,7 @@
     padding: 24px 24px;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-gris);
+    background-color: var(--color-gray);
     position: fixed;
     left: 0;
     right: 0;
@@ -31,7 +31,7 @@
 
 .topbar__menu--unfolded {
     display: none;
-    background-color: var(--color-rojo);
+    background-color: var(--color-red);
     padding-top: 35vh; 
     position: fixed;
     top: 96.55px;
@@ -47,7 +47,7 @@
         ul {
             list-style: none;                         
             li a {
-                    color: var(--color-gris);
+                    color: var(--color-gray);
                     text-decoration: none;
             }            
          }

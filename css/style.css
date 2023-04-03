@@ -1,16 +1,16 @@
 :root {
   /*COLORES*/
-  --color-rojo: #C8443B;
-  --color-gris: #E6E4E1;
-  --color-negro: #2E2D30;
+  --color-red: #C8443B;
+  --color-gray: #E6E4E1;
+  --color-black: #2E2D30;
   /*COLORES DE FONDO*/
-  --color-bg-rojo: #C8443B;
-  --color-bg-gris: #E6E4E1;
-  --color-bg-negro: #2E2D30;
+  --color-bg-red: #C8443B;
+  --color-bg-gray: #E6E4E1;
+  --color-bg-black: #2E2D30;
   /*VARIANTES DE PESO*/
-  --peso-light: 300;
-  --peso-regular: 400;
-  --peso-medium: 500;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
 }
 
 * {
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background-color: var(--color-bg-gris);
+  background-color: var(--color-bg-gray);
   font-family: "Unbounded", sans-serif;
 }
 
@@ -255,11 +255,11 @@ p.attribute {
   margin-bottom: 108px;
 }
 .portal__categories-nav h3 {
-  font-weight: var(--peso-light);
+  font-weight: var(--weight-light);
 }
 .portal__categories-nav span {
-  color: var(--color-negro);
-  font-weight: var(--peso-light);
+  color: var(--color-black);
+  font-weight: var(--weight-light);
 }
 
 ul {
@@ -311,7 +311,7 @@ ul {
 
 .shop-page-content h2 {
   margin-bottom: 96px;
-  font-weight: var(--peso-regular);
+  font-weight: var(--weight-regular);
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -350,50 +350,50 @@ ul {
     text-align: center;
   }
   .manifest-page-content p {
-    font-weight: var(--peso-regular);
+    font-weight: var(--weight-regular);
   }
   main.manifest-page-content {
     padding: 144.55px 192px 0 192px;
   }
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: var(--color-rojo);
+  color: var(--color-red);
 }
 
 h1, .h1 {
   font-size: 40px;
-  font-weight: var(--peso-medium);
+  font-weight: var(--weight-medium);
 }
 
 h2, .h2 {
   font-size: 36px;
-  font-weight: var(--peso-medium);
+  font-weight: var(--weight-medium);
 }
 
 h3, .h3 {
   font-size: 36px;
-  font-weight: var(--peso-regular);
+  font-weight: var(--weight-regular);
 }
 
 h4, .h4 {
   font-size: 32px;
-  font-weight: var(--peso-regular);
+  font-weight: var(--weight-regular);
 }
 
 h5, .h5 {
   font-size: 24px;
-  font-weight: var(--peso-regular);
+  font-weight: var(--weight-regular);
 }
 
 h6, .h6 {
   font-size: 20px;
-  font-weight: var(--peso-light);
+  font-weight: var(--weight-light);
 }
 
 .h1-serif {
   font-size: 32px;
   font-family: "Petrona", serif;
-  color: var(--color-negro);
+  color: var(--color-black);
 }
 
 p.h2-serif-italic {
@@ -405,33 +405,33 @@ p.h2-serif-italic {
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--color-negro);
+  color: var(--color-black);
   font-size: 16px;
 }
 
 .attribute {
-  color: var(--color-rojo);
-  font-weight: var(--peso-medium);
+  color: var(--color-red);
+  font-weight: var(--weight-medium);
 }
 
 .text-serif {
   font-size: 20px;
   font-family: "Petrona", serif;
-  color: var(--color-negro);
+  color: var(--color-black);
 }
 
 .more-entries-link__container {
   display: block;
   text-align: center;
   font-size: 24px;
-  color: var(--color-negro);
+  color: var(--color-black);
 }
 
 .more-entries-link__text {
   display: block;
   text-align: center;
   font-size: 24px;
-  color: var(--color-negro);
+  color: var(--color-black);
 }
 
 .hero-section__texts {
@@ -444,7 +444,7 @@ p {
 }
 
 .last-entries-section h5 {
-  color: var(--color-negro);
+  color: var(--color-black);
   text-align: center;
 }
 
@@ -478,8 +478,8 @@ p {
   text-align: start;
   margin-top: 8px;
   font-size: 14px;
-  color: var(--color-negro);
-  font-weight: var(--peso-light);
+  color: var(--color-black);
+  font-weight: var(--weight-light);
 }
 
 @media screen and (min-width: 1194px) {
@@ -534,7 +534,7 @@ a {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-negro);
+  background-color: var(--color-black);
   -webkit-animation: underline-animation 0.25s ease-in-out forwards;
           animation: underline-animation 0.25s ease-in-out forwards;
 }
@@ -551,7 +551,7 @@ a {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   -webkit-animation: underline-animation 0.25s ease-in-out forwards;
           animation: underline-animation 0.25s ease-in-out forwards;
 }
@@ -568,7 +568,7 @@ a {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   -webkit-animation: underline-animation 0.25s ease-in-out forwards;
           animation: underline-animation 0.25s ease-in-out forwards;
 }
@@ -590,7 +590,7 @@ a {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   -webkit-animation: underline-animation 0.25s ease-in-out forwards;
           animation: underline-animation 0.25s ease-in-out forwards;
 }
@@ -607,7 +607,7 @@ a {
   }
 }
 nav ul li div {
-  color: var(--color-gris);
+  color: var(--color-gray);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -626,9 +626,9 @@ nav ul li div:hover, nav ul li div:active {
 .btn {
   font-family: "Unbounded";
   font-size: 20px;
-  font-weight: var(--peso-light);
-  color: var(--color-gris);
-  background-color: var(--color-rojo);
+  font-weight: var(--weight-light);
+  color: var(--color-gray);
+  background-color: var(--color-red);
   border: 0;
   padding: 8px;
   width: 100%;
@@ -637,9 +637,9 @@ nav ul li div:hover, nav ul li div:active {
 }
 
 .btn:hover, .btn:active {
-  color: var(--color-rojo);
-  background-color: var(--color-gris);
-  border: solid 1px var(--color-rojo);
+  color: var(--color-red);
+  background-color: var(--color-gray);
+  border: solid 1px var(--color-red);
   cursor: pointer;
 }
 
@@ -649,10 +649,10 @@ nav ul li div:hover, nav ul li div:active {
           appearance: none;
   font-family: "Unbounded";
   font-size: 20px;
-  font-weight: var(--peso-light);
-  color: var(--color-negro);
-  background-color: var(--color-gris);
-  border: 1px solid var(--color-negro);
+  font-weight: var(--weight-light);
+  color: var(--color-black);
+  background-color: var(--color-gray);
+  border: 1px solid var(--color-black);
   padding: 8px;
   width: 100%;
   background-image: url("/img/flecha__desplegable.svg");
@@ -673,7 +673,7 @@ nav ul li div:hover, nav ul li div:active {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   -webkit-animation: underline-animation 0.25s ease-in-out forwards;
           animation: underline-animation 0.25s ease-in-out forwards;
 }
@@ -686,7 +686,7 @@ nav ul li div:hover, nav ul li div:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: var(--color-gris);
+  background-color: var(--color-gray);
   position: fixed;
   left: 0;
   right: 0;
@@ -721,7 +721,7 @@ nav ul li div:hover, nav ul li div:active {
 
 .topbar__menu--unfolded {
   display: none;
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   padding-top: 35vh;
   position: fixed;
   top: 96.55px;
@@ -740,7 +740,7 @@ nav ul li div:hover, nav ul li div:active {
   list-style: none;
 }
 .topbar__menu--unfolded ul li a {
-  color: var(--color-gris);
+  color: var(--color-gray);
   text-decoration: none;
 }
 
@@ -790,8 +790,8 @@ nav ul li div:hover, nav ul li div:active {
 }
 
 .last-entries-section__card-box {
-  border-top: 2px solid var(--color-rojo);
-  border-bottom: 2px solid var(--color-rojo);
+  border-top: 2px solid var(--color-red);
+  border-bottom: 2px solid var(--color-red);
   margin-bottom: 12px;
 }
 
@@ -900,7 +900,7 @@ div.last-entries-section__card:hover {
   }
 }
 .product-page-content .product-component__basic-data h1 {
-  font-weight: var(--peso-medium);
+  font-weight: var(--weight-medium);
   margin-bottom: 24px;
 }
 
@@ -914,12 +914,12 @@ div.last-entries-section__card:hover {
   }
 }
 footer {
-  background-color: var(--color-rojo);
+  background-color: var(--color-red);
   padding: 0 24px;
 }
 
 footer ul a {
-  color: var(--color-gris);
+  color: var(--color-gray);
 }
 
 footer ul {
@@ -944,11 +944,11 @@ footer ul li div:hover, footer ul li div:active {
 }
 
 footer ul li:not(:nth-of-type(4)) {
-  border-bottom: 2px solid var(--color-gris);
+  border-bottom: 2px solid var(--color-gray);
 }
 
 #footer__credits {
-  color: var(--color-gris);
+  color: var(--color-gray);
   text-align: end;
   padding-bottom: 24px;
   opacity: 50%;

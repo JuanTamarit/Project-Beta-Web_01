@@ -18,7 +18,7 @@ display: none;
     left: 0; 
     width: 0; 
     height: 2px; 
-    background-color: var(--color-negro); 
+    background-color: var(--color-black); 
     animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
@@ -34,7 +34,7 @@ display: none;
     left: 0; 
     width: 0; 
     height: 2px; 
-    background-color: var(--color-rojo); 
+    background-color: var(--color-red); 
     animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
@@ -52,7 +52,7 @@ display: none;
     left: 0; 
     width: 0; 
     height: 2px; 
-    background-color: var(--color-rojo); 
+    background-color: var(--color-red); 
     animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
@@ -75,7 +75,7 @@ display: none;
     left: 0; 
     width: 0; 
     height: 2px; 
-    background-color: var(--color-rojo); 
+    background-color: var(--color-red); 
     animation: underline-animation 0.25s ease-in-out forwards; 
 }
 
@@ -87,7 +87,7 @@ display: none;
   }
 
 nav ul li div {
-    color: var(--color-gris);
+    color: var(--color-gray);
     transition: transform 0.3s ease-in-out;
 }
 

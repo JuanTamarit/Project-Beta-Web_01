@@ -1,10 +1,10 @@
 footer {
-    background-color: var(--color-rojo);
+    background-color: var(--color-red);
     padding: 0 24px;
 }
 
 footer ul a {
-    color: var(--color-gris);
+    color: var(--color-gray);
 }
 
 footer ul {
@@ -25,11 +25,11 @@ footer ul li div:hover, footer ul li div:active {
 }
 
 footer ul li:not(:nth-of-type(4)) {
-    border-bottom: 2px solid var(--color-gris);
+    border-bottom: 2px solid var(--color-gray);
 }
 
 #footer__credits {
-    color: var(--color-gris);
+    color: var(--color-gray);
     text-align: end;
     padding-bottom: 24px;
     opacity: 50%;

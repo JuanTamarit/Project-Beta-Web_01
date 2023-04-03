@@ -2,19 +2,19 @@
 p {
     margin-top: 0;
     margin-bottom: 0;
-    color: var(--color-negro);
+    color: var(--color-black);
     font-size: 16px;
 }
 
 .attribute {
-    color: var(--color-rojo);
-    font-weight: var(--peso-medium);
+    color: var(--color-red);
+    font-weight: var(--weight-medium);
 }
 
 .text-serif {
     font-size: 20px;
     font-family: 'Petrona', serif;
-    color: var(--color-negro);
+    color: var(--color-black);
 }
 
 // ESTILOS REFERENTES A TEXTOS DE LA HOME (MARGINS, COLORES ESPECÍFICOS, ETC.)
@@ -23,14 +23,14 @@ p {
     display: block;
     text-align: center;
     font-size: 24px;
-    color: var(--color-negro);
+    color: var(--color-black);
 }
 
 .more-entries-link__text {
     display: block;
     text-align: center;
     font-size: 24px;
-    color: var(--color-negro);
+    color: var(--color-black);
 }
 
 .hero-section__texts {
@@ -43,7 +43,7 @@ p {
 }
 
 .last-entries-section h5 {
-    color: var(--color-negro);
+    color: var(--color-black);
     text-align: center;
  }
 
